@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background: #eee;
+  font: 12px sans-serif;
+  color: #4b4b4b;
+}
+
+a {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+#wrapper {
+  background: #fff;
+  width: 1094px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header .left {
+  width: 327px;
+  height: 160px;
+  float: left;
+}
+
+#header .right {
+  width: 700px;
+  float: left;
+  text-align: right;
+  padding-top: 44px;
+}
+
+#header .right a {
+  margin-left: 5px;
+}
+
+#header #logo {
+  display: block;
+  margin-left: 68px;
+  margin-top: 44px;
+}
+
+#banner-tall {
+  clear: both;
+  width: 1094px;
+  height: 254px;
+  background-image: url('/images/banner-tall.png');
+}
+
+#content {
+  margin-top: 45px;
+}
+
+#content .left {
+  clear: both;
+  float: left;
+  margin-left: 67px;
+  margin-bottom: 40px;
+  width: 260px;
+}
+
+#content .right {
+  float: left;
+  margin-left: 56px;
+  margin-bottom: 40px;
+  width: 645px;
+}
+
+#content .right img {
+  float: left;
+  margin-bottom: 5px;
+}
+
+#content h1 {
+  margin-top: 0;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+#footer {
+  clear: both;
+  margin-left: 67px;
+  height: 50px;
+}
+
+/* ----------------- */
+
+.green-button {
+  display: block;
+  width: 166px;
+  height: 27px;
+  background: url('/images/green-button.png');
+  margin-bottom: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.green-button span {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 7px;
+}

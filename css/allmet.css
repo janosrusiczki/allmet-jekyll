@@ -40,11 +40,28 @@ a {
   margin-top: 44px;
 }
 
-#banner-tall {
+#banner-tall, #banner-short {
   clear: both;
   width: 1094px;
+}
+
+#banner-tall {
   height: 254px;
   background-image: url('/images/banner-tall.png');
+}
+
+#banner-short {
+  height: 60px;
+  background-image: url('/images/banner-short.png');
+}
+
+#banner-switcher {
+  display: inline-block;
+  margin-left: 67px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 #content {
@@ -59,11 +76,26 @@ a {
   width: 260px;
 }
 
+#content .left ul {
+  display: inline;
+}
+
 #content .right {
   float: left;
   margin-left: 56px;
   margin-bottom: 40px;
   width: 645px;
+}
+
+#content .full {
+  clear: both;
+  width: 960px;
+  margin: 0 0 45px 67px;
+}
+
+#content .full h1 {
+  margin: 0;
+  font-weight: normal;
 }
 
 #content .right img {
@@ -74,7 +106,10 @@ a {
 #content h1 {
   margin-top: 0;
   font-size: 26px;
-  text-transform: uppercase;
+}
+
+#content h3 {
+  margin-top: 0;
 }
 
 #footer {
@@ -85,6 +120,10 @@ a {
 
 /* ----------------- */
 
+.uc {
+  text-transform: uppercase;
+}
+
 .green-button {
   display: block;
   width: 166px;
@@ -92,7 +131,6 @@ a {
   background: url('/images/green-button.png');
   margin-bottom: 5px;
   color: #fff;
-  text-transform: uppercase;
 }
 
 .green-button span {
@@ -100,4 +138,12 @@ a {
   display: inline-block;
   margin-left: 10px;
   margin-top: 7px;
+}
+
+.green-button-centered {
+  text-align: center;
+}
+
+.green-button-centered span {
+  margin-left: 0;
 }

@@ -64,6 +64,10 @@ a {
   text-transform: uppercase;
 }
 
+#banner-switcher a {
+  color: #7c7c7c;
+}
+
 #content {
   margin-top: 45px;
 }

@@ -56,9 +56,10 @@ a {
 }
 
 #banner-switcher {
+  font-family: 'Monda', sans-serif;
   display: inline-block;
   margin-left: 67px;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
@@ -81,7 +82,11 @@ a {
 }
 
 #content .left ul {
-  display: inline;
+  margin-left: -40px;
+}
+
+#content .left li {
+  line-height: 140%;
 }
 
 #content .right {
@@ -107,13 +112,17 @@ a {
   margin-bottom: 5px;
 }
 
-#content h1 {
+#content h1, #content h3 {
   margin-top: 0;
+  font-family: 'Monda', sans-serif;
+}
+
+#content h1 {
   font-size: 26px;
 }
 
 #content h3 {
-  margin-top: 0;
+  line-height: 110%;
 }
 
 #footer {

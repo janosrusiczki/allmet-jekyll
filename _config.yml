@@ -1,4 +1,4 @@
 name: Allmetal
 markdown: redcarpet
 pygments: true
-exclude: [Vagrantfile]
+exclude: [Vagrantfile,README.md]

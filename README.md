@@ -1,4 +1,4 @@
 # Allmet Trading
 
 ## Reference
-* https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+* [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
